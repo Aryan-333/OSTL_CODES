@@ -1,0 +1,8 @@
+all: mainprg.c maths.h
+	gcc -o m1 mainprg.c add.o
+
+rem:
+	rm*.o
+
+add.o : add.c maths.h
+	gcc -c add.c
