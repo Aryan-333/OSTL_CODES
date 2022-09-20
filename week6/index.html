@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="description" content="This is an awesome website">
+        <meta name="author" content="Aryan">
+        <meta name="keywords" content="HTML, FIRST WEBSITE">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <title>Aryan's Website</title>
+        <link rel="stylesheet" href="style.css" />
+
+    </head>
+     <body style="background-color: lightblue;font-size: 20px;">
+        <h1>Hey!</h1>
+        <h2 style="color: rgb(122, 12, 12);">Aryan's Website</h2> 
+        <br/>
+
+        <p><big>This</big> <small>is</small> my <b>paragraph</b></p>
+        <p style="border: 1px solid black; width: 150px;">Paragrah <b><i>continued</i></b></p>
+        <br>
+
+        <p style="border: 2px solid brown; width: 70%; max-width: 700px; color: rgb(36, 65, 7);"> This is how we can do <sub>subscript</sub> <sup>superscript</sup> </p>
+        <br> 
+        <!--This is comment-->
+         <hr>
+         
+        <!-- Just a basic glimpse of CSS -->
+         <h3>Style and color</h3>
+         <p style="color: blue ; background-color: burlywood;">You can style it </p>
+         <hr><br> 
+        
+        <!--Formatting a Page--> 
+            <header>
+                <nav>
+                  <h2>File</h2>
+                </nav>
+
+            </header>
+
+            <main>
+                <article>
+                    <section>
+                        <h3>About</h3>
+                        <aside>
+                        </aside>
+                    </section>
+                </article>
+            </main>
+
+            <footer>
+               contact us
+            </footer>
+            <hr><br>
+
+        <!--LINK-->    
+         <a href="https://www.youtube.com" target="_blank"><h4><b>Youtube</b> Homepage</h4></a>
+         
+         <a href="page2.html" ><i>PAGE 2</i></a> <br>
+    
+         <a href="Testingfolder/login.html">Page 3</a> <br>
+
+         <a href="Testingfolder/cat.jpeg">CAT</a> <br>
+        
+         <br><hr><br>
+
+
+        <!--Images-->
+
+         <img width="100" height="100" src="https://purepng.com/public/uploads/large/purepng.com-bitcoinobjectsbitcoinmoneycashcoinobjectgoldcurrencypaymentbitcoinvirtual-631522324013ysu8d.png" alt="A picture of bitcoin"/>
+         <img width="100" height="100" src="Testingfolder/cat.jpeg" alt="a cute cat"/> <br>
+         <!--Some time image look not good after defining height or width so keep check on aspect ratio , if you set one of the element either height or width html will automatically adjust other using right aspect ratio-->
+         
+         <!--We can alo link image to another image for eg below-->
+         <h4>Linked image </h4><br>
+         <a href="https://purepng.com/public/uploads/large/purepng.com-bitcoinobjectsbitcoinmoneycashcoinobjectgoldcurrencypaymentbitcoinvirtual-631522324013ysu8d.png"><img width="100" height="100" src="Testingfolder/cat.jpeg" alt="a cute cat"/></a>
+         <br><hr><br>
+
+
+        <!--VIDEO-->
+
+         <video src="Testingfolder/Manipal.mp4"  width="300" poster="Testingfolder/Thumbnail.jpeg" loop controls height="400">Manipal video</video>
+         <iframe width="360" height="315" src="https://www.youtube.com/embed/3Qmoz9BnxJc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <br><hr><br>
+
+
+        <!--Lists-->
+
+         <ol type="I">
+             <li>Apple</li>
+             <li>Orange
+                 <ul> <!--We can use unordered list no. version by using 'ul'-->
+                     <li>Nagpur</li>
+                 </ul>
+             </li>
+             <li><a href="#">Chikoo</a></li>
+         </ol> 
+          
+           <!--We can also make destriptive list -->
+         <dl>
+             <dt>Apples</dt>
+             <dd>-they are red</dd>
+         </dl>
+         <br><hr><br>
+
+
+        <!--TABLES-->
+         <table>
+             <thead>
+              <caption><h3>List of Numbers</h3></caption>
+              <tr>
+                 <th>num1</th>
+                 <th>num2</th>
+                 <th>num3</th>
+              </tr>
+             </thead>
+
+             <tbody>
+             <tr>
+               <td>one</td>
+               <td>two</td>
+               <td>three</td>
+             </tr>
+             <tr>
+                <td colspan="2">four</td>
+                <td>five</td>
+                <td>six</td>
+             </tr>
+             </tbody>
+         </table>
+         <br><hr><br>
+
+
+        <!--DIVS AND SPANS-->
+         <a href="#">Link1</a>
+         <a href="#">Link2</a>
+           They are in-line element 
+           <br>
+         <p>paragraph1</p>
+         <p>paragraph2</p>
+           They are block element
+           <br><br><br>
+
+         <span>Span1</span>
+         <span>Span2</span>
+           Span are inline 
+            <br>
+         <div>div1</div>
+         <div>div2</div>
+          Div is block
+         <br><hr><br>
+
+
+        <!--INPUT AND OUTPUT-->
+         <form>
+         <input type="text" value="Enter your username"> <br>
+         <input type="password" placeholder="password"><br>
+         <input type="date"><br>
+         <input type="file"><br>
+         <label for="life">
+            <input type="checkbox" name="life" id="life"> Life fucked up
+         </label><br>
+         
+
+         <label for="sectionida">
+             <input type="radio" value="sectiona" name="section" id="sectionida"> Section A
+         </label>
+         <label for="sectionidb">
+            <input type="radio" value="sectionb" name="section" id="sectionidb"> Section B
+         </label>
+         <label for="sectionidc">
+            <input type="radio" value="sectionc" name="section" id="sectionidc"> Section C
+         </label><br>
+
+         <input type="Submit" name="btn"><br>
+         <button type="button" id="btn">Sign Up Now</button><br>
+         
+         <textarea rows="3" cols="20" placeholder="password">
+         Enter data 
+         </textarea><br>
+
+         <select name="car" id="car">
+             <option value="no_car">select your car</option>
+             <option value="Innova">Innova</option>
+             <option value="BMW">BMW</option>
+             <option value="Benz">Benz</option> <br>
+
+         </select>
+         </form>
+         <br><hr><br>
+
+
+        <!--iFRAME--> 
+         <iframe src="https://www.mikedane.com/" frameborder="0" width="300" height="300">instagram</iframe>
+          <br><hr><br>
+
+
+        <!--META TAGS-->
+         Meta tags added at top of the code 
+         <br><hr><br>
+
+
+        <!--PRE TAG-->
+         <pre>
+             This   allow 
+               us to   write as it is 
+                   unchanged
+         </pre>
+         <br><hr><br>
+
+
+        <!-- Padding -->
+         <div style="padding: 50px; background-color: chartreuse;">
+            Overall padding
+          </div>
+
+         <div style="padding-left: 50px; padding-right: 50px; background-color: chocolate;">
+           Individual side padding
+         </div>
+
+         <div style="padding: 50px 25px 50px 25px;background-color: cornflowerblue;">
+          Four side padding in same line
+         </div>
+         <br><hr><br>
+
+
+        <!-- Margin -->
+         <div style="margin: 50px;background-color: darkblue; color: white;">
+          Overall margin
+         </div>
+                       
+         <div style="margin-left: 50px; margin-right: 50px;background-color: cornflowerblue">
+          Individual side margin
+         </div>
+
+         <div style="margin: 50px 25px 50px 25px;background-color: cornflowerblue">
+          Four side margin in same line
+          <!--IF REQUIRED WE CAN ALSO USE -ve MARGINS-->
+         </div>
+         <br><hr><br>
+
+
+        <!--Float and display-->
+         <ul style="float: left;background-color: yellowgreen;">
+           <li style="display: inline;">Home</li>
+           <li style="display: inline;">About</li>
+           <li style="display: inline;">contact</li>
+         </ul>
+         <head>
+
+         <p>You can use float to do this to your pageYou can use float to do this to your pageYou can use You can use float to do this to your pageYou can use float to do this to your pagefloat to do this to your pageYou can use float to do this to your pageYou can use float to do this to your pageYou can use float to do this to your pageYou can use float to do this to your pageYou can use float to do this to your page</p>
+         <br><hr><br>
+
+
+        <!--Position - Static, relative , absolute, fixed-->  
+         <div style="position: relative; top: 10px; bottom: 10px; left: 20px; width:90px; height:90px; background-color:blue;"></div>
+         <div style="width:100px; height:100px; background-color:red;"></div>
+
+         <!--position: absolute; top: 0px; bottom: 0px; left: 20px
+            WE USE ABSOLUTE WHEN IT IS IN RESPECT TO THE WHOLE PAGE SO USING THIS COMMAND THIS WILL BE SHIFTED TO THE TOP OF THE WEBSITE-->
+         <!-- When we use fixed position it remain same to the viewport it remainn sticky even when we scroll or anything-->
+         <br><hr><br>
+
+
+        <!--SHADOW, BORDER RADIUS, OPACITY -->
+         <h2 style="text-shadow: 2px 2px 2px red;  
+           position: relative;
+           top:125px;
+           left:15px"> CAT IN Tutorial </h2>
+           <!--In shadow 2px 2px 2px fiorst is horizontal shadow , vertical shadow , blur shadow-->
+        
+         <img style="opacity:0.4;border-radius: 50%;box-shadow: 5px 5px 5px grey;
+            "src="Testingfolder/cat.jpeg" alt="CAT cute"/>
+         <br><hr><br>
+
+
+        <!--TEXTS AND FONTS-->
+         <p style="font-size:1em; 
+         font-family: 'Tahoma', Gadget, sans-serif; 
+         font-style: italic;
+         font-variant: small-caps;
+         font-weight: bolder;">
+         This video is one in a series of videos where we'll be looking at styling websites with CSS. The course is designed for new web developers, and will introduce common web development and styling concepts using the CSS language. some text</p>
+         <br><hr><br>
+
+
+        <!--STYLE TAGS-->
+         
+         <!-- 
+         <style>
+             body {color:blue;}
+
+             h1 {color:green;}
+         </style> 
+         IT NEED TO BE IN HEAD TAG-->
+
+
+        <!-- EXTERNAL STYLE SHEET-->
+         
+
+        <!--ID and class-->
+         
+         <h2 id="trial-id">ID for specific use we assign a particular id and in css sheet change that particular id only</h2>
+
+         <p class="fancy-border blue-text">Miaw miaw</p>
+         
+         <h6 class="blue-text">That was Cat sound </h6>
+        
+         <br><hr><br>
+
+
+
+         <!--FLEXBOX-->
+
+         <!-- classes 'box', 'box2' and 'container' (not shown) are used for styling the elements -->
+         <div class="flex-container container">
+           <div class="box flex-item"><h1>1</h1></div>
+           <div class="box2 flex-item"><h1>2</h1></div>
+           <div class="box flex-item"><h1>3</h1></div>
+           <div style="align-self:center;" class="box"><h1>4</h1></div>
+           <div class="box flex-item"><h1>5</h1></div>
+            </div>
+
+         <!--CANVAS-->
+         <canvas id="myCanvas" width="200" height="100">Your browser does not support the HTML5 canvas tag.</canvas>
+    </body>
+</html>
+
+        
