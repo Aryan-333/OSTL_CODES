@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <!--Embedding canvas into an HTML document-->
+        <canvas id="myCanvas" width="200" height="100">Your browser does not support the HTML5 canvas tag.</canvas>
+    
+        <!--Drawing a line, circle, rectangle, arc onto the canvas-->
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0, 0);
+            ctx.lineTo(200, 100);
+            ctx.stroke();
+            ctx.lineWidth = 15;
+            ctx.strokeStyle = "orange";
+            ctx.stroke();
+
+            
+        </script>
+          
+        <canvas id="myCanvas2" width="200" height="100">Your browser does not support the HTML5 canvas tag.</canvas>
+
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+            ctx.stroke();
+            ctx.fillStyle = "blue";
+            ctx.fill();
+
+            // Create gradient
+var grd = ctx.createLinearGradient(0, 0, 200, 0);
+grd.addColorStop(0, "red");
+grd.addColorStop(1, "white");
+
+// Fill with gradient
+ctx.fillStyle = grd;
+ctx.fillRect(10, 10, 150, 80);
+        </script>
+
+    </body>
+</html>
